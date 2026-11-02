@@ -1,0 +1,27 @@
+# Build output
+bin/
+obj/
+**/bin/
+**/obj/
+release-v*/
+CaaM-v*-win-x64/
+CaaM-v*-win-x64.zip
+CaaM-v*-win-x64.zip.sha256
+assets/caam-logo-concept*
+
+# Local SDK and package caches
+.dotnet-cli/
+.dotnet-home/
+.nuget-packages/
+
+# IDE and user files
+.vs/
+.vscode/
+*.user
+*.suo
+*.pdb
+
+# Local logs and temporary files
+*.log
+*.tmp
+*.bak
